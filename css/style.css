@@ -1,0 +1,285 @@
+body {
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: 400;
+}
+
+/* Generic styles */
+.font-container {
+	overflow-y: scroll; 
+}
+
+.font-box {
+	height: 30vh;
+	background: no-repeat center top #000;
+	background-size: cover;
+	position: relative;
+	z-index: 999;
+	overflow: hidden;
+}
+
+.font-description {
+	position: absolute;
+	z-index: 9;
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+    color: #f5f5f5;
+}
+
+	.font-description h1 {
+		font-size: 3vh;
+		font-family: 'Poppins', sans-serif;
+		font-weight: 800;
+		margin: 5px 0 15px 0;
+		text-shadow: 0px 1px 1px rgba(0,0,0, .3);
+	}
+
+	.font-description p {
+		line-height: 2.6vh;
+		margin-bottom: 30px;
+		font-family: 'Miriam Libre', sans-serif;
+		font-size: 1.7vh;
+		text-shadow: 0px 1px 1px rgba(0,0,0, .3);
+	}
+
+	.font-description p i {
+		display: block;
+		font-style: italic;
+		margin-top: 15px;
+		font-weight: bold;
+	}
+
+	.font-description a {
+		/*position: absolute;
+		bottom: 15px;*/
+		color: #ffb901;
+		font-size: 1.7vh;
+		padding: 7px 30px;
+		background: rgba(0,0,0, .3);
+		border-radius: 5px;
+		position: absolute;
+    	bottom: 20px;
+	}
+
+	.font-description a:hover {
+		text-decoration: none;
+		background: rgba(0,0,0,.45);
+	}
+
+	.font-box:hover > .font-description{
+		-webkit-transition: all .25s; /* Safari */
+	    transition: all .25s;
+	}
+
+
+
+@media only screen and (min-width: 768px){
+
+	.font-box {
+		min-height: 400px;
+		height: 20vh;
+	}
+
+	.font-description h1 {
+		font-size: 30px;
+	}
+
+	.font-description p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.font-description a {
+		font-size: 14px;
+	}
+}
+
+/*background color on hover - styles*/
+.orange {
+	background-color: rgba(185, 104, 0, .90);
+	top: -400px;
+	right: -100vh;
+}
+
+	.font-box:hover > .orange{
+	    top: 0;
+	    right: 0;
+	}
+	
+.green-sea {
+	background-color: rgba(22, 160, 133, .90);
+	bottom: -400px;
+	left: -100vh;
+}
+
+	.font-box:hover > .green-sea{
+	    bottom: 0;
+	    left: 0;
+	}
+
+.midnight{
+	background-color: rgba(44, 62, 80, .90);
+	bottom: -400px;
+	right: -100vh;
+}
+
+	.font-box:hover > .midnight{
+	    bottom: 0;
+	    right: 0;
+	}
+
+.nephritis{
+	background-color: rgba(39, 174, 96, .90);
+	top: -400px;
+	left: -100vh;
+}
+
+	.font-box:hover > .nephritis{
+	    top: 0;
+	    left: 0;
+	}
+
+.pomegranate{
+	background-color: rgba(192, 57, 43, .90);
+	top: -400px;
+	left: -100vh;
+}
+
+	.font-box:hover > .pomegranate{
+	    top: 0;
+	    left: 0;
+	}
+
+.belize-hole{
+	background-color: rgba(41, 128, 185, .90);
+	bottom: -400px;
+	right: -100vh;
+}
+
+	.font-box:hover > .belize-hole{
+	    bottom: 0;
+	    right: 0;
+	}
+
+.asbestos{
+	background-color: rgba(148, 17, 101, .90);
+	bottom: -400px;
+	left: -100vh;
+}
+
+	.font-box:hover > .asbestos{
+	    bottom: 0;
+	    left: 0;
+	}
+
+.wisteria{
+	background-color: rgba(142, 68, 173, .90);
+	top: -400px;
+	right: -100vh;
+}
+
+	.font-box:hover > .wisteria{
+	    top: 0;
+	    right: 0;
+	}
+
+.greensky{
+	background-color: rgba(131, 138, 38, 0.95);
+	top: -400px;
+	left: -100vh;
+}
+
+	.font-box:hover > .greensky {
+	    top: 0;
+	    left: 0;
+	}
+
+/* Fonts - specific styles */
+.adamcg-pro {
+	background-image: url(../images/adamcg-pro.jpg);
+}
+
+.aileron {
+	background-image: url(../images/aileron.jpg);
+}
+
+.archive-font {
+	background-image: url(../images/archive.gif);
+}
+
+.arkhip {
+	background-image: url(../images/arkhip.jpg);
+}
+
+.bakersfield {
+	background-image: url(../images/bakersfield.jpg);
+}
+
+.bebas-tam {
+	background-image: url(../images/bebas-tam.jpg);
+}
+
+.big-john {
+	background-image: url(../images/big-john.png);
+}
+
+.borg {
+	background-image: url(../images/borg.jpg);
+}
+
+.brasilia {
+	background-image: url(../images/brasilia.jpg);
+	background-position: center;
+}
+
+.building {
+	background-image: url(../images/building.gif);
+	background-position: center;
+}
+.nooa {
+	background-image: url(../images/nooa.jpg);
+}
+
+.silverfake {
+	background-image: url(../images/silverfake.jpg);
+}
+
+.parker {
+	background-image: url(../images/parker.jpg);
+}
+
+.kirvy {
+	background-image: url(../images/kirvy.jpg);
+}
+
+.makhina {
+	background-image: url(../images/makhina.gif);
+}
+
+.freschezza {
+	background-image: url(../images/freschezza.jpg);
+	background-position: center;
+}
+
+.kanji {
+	background-image: url(../images/kanji.jpg);
+}
+
+.nickainley {
+	background-image: url(../images/nickainley.jpg);
+}
+
+.modeka {
+	background-image: url(../images/modeka.jpg);
+}
+
+.coda {
+	background-image: url(../images/coda.jpg);
+	background-position: center;
+}
+
+.kino {
+	background-image: url(../images/kino.jpg);
+	background-position: center;
+}
+
